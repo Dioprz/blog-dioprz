@@ -1,0 +1,60 @@
+baseURL: 'https://dioprz.github.io/Dioprz/'
+theme: 'hermit-v2'
+defaultContentLanguage: en
+languageCode: en-us
+title: 'Dioprz blog'
+params:
+  homeSubtitle: "Welcome to my personal website. <br> Here you will find some blogs about my work and <br> areas of interest."
+  weight: 1
+  dateform: 'Jan 2, 2006'
+  dateformShort: 'Jan 2'
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04 -0700'
+  author:
+    name: "Dioprz"
+    about: "about-diego"
+  description: "Dioprz personal website."
+  themeColor: "#494f5c"
+  footerCopyright: ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  bgImg: 'images/try_3.jpg' # Homepage background-image URL
+  justifyContent: false
+  relatedPosts: true
+  code_copy_button: true
+  homeSubtitlePrinter: false
+  scrollToTop: true
+  global_mathjax: false
+  readTime: true
+  readTimeSeparator: "… ⏲ Reading Time:"
+  shareSocial: true
+  descriptionInPosts: true
+  socialLinks:
+    - name: 'github'
+      url: 'https://github.com/Dioprz'
+    - name: 'linkedin'
+      url: 'https://www.linkedin.com/in/dioprz/'
+    - name: 'element'
+      url: '@dioprz:matrix.org'
+  enableGitInfo: true
+  pygmentsCodefences: true
+  pygmentsUseClasses: true
+  hasCJKLanguage: false
+  rssLimit: 10
+  copyright: "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  enableEmoji: true
+  frontmatter:
+    date: ["lastmod", "date", "publishDate"]
+    lastmod: ["date", "lastmod", ":git", "publishDate"]
+    publishDate: ["publishDate", "date"]
+    expiryDate: ["expiryDate"]
+taxonomies:
+  tag: 'tags'
+  # Categories are disabled by default.
+  # category: 'categories'
+menu:
+  main:
+    - name: Posts
+      pageRef: posts/
+      weight: 10
+    - name: About
+      pageRef: about/about-diego.md
+      weight: 20
