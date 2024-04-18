@@ -16,7 +16,7 @@ params:
   description: "Dioprz personal website."
   themeColor: "#494f5c"
   footerCopyright: ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  bgImg: 'images/try_3.jpg' # Homepage background-image URL
+  bgImg: 'images/try_1.jpg' # Homepage background-image URL
   justifyContent: false
   relatedPosts: true
   code_copy_button: true
