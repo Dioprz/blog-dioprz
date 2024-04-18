@@ -1,23 +1,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Dioprz blog</title>
-		<link>http://localhost:1313/Dioprz/posts/</link>
+		<link>http://localhost:1313/posts/</link>
 		<description>Recent content in Posts on Dioprz blog</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Tue, 11 Jul 2023 03:22:28 -0500</lastBuildDate>
-		<atom:link href="http://localhost:1313/Dioprz/posts/index.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Fri, 29 Mar 2024 20:01:07 -0500</lastBuildDate>
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Post_1</title>
+			<link>http://localhost:1313/posts/post_1/</link>
+			<pubDate>Fri, 29 Mar 2024 20:01:07 -0500</pubDate>
+			
+			<guid>http://localhost:1313/posts/post_1/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[]]></content>
+		</item>
 		
 		<item>
 			<title>My First Post</title>
-			<link>http://localhost:1313/Dioprz/posts/my-first-post/</link>
+			<link>http://localhost:1313/posts/my-first-post/</link>
 			<pubDate>Tue, 11 Jul 2023 03:22:28 -0500</pubDate>
 			
-			<guid>http://localhost:1313/Dioprz/posts/my-first-post/</guid>
+			<guid>http://localhost:1313/posts/my-first-post/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<h1 id="prueba-de-título">Prueba de título</h1>
 <p>Proof of posting</p>
 <h2 id="prueba-de-segundo-título">Prueba de segundo título</h2>
+]]></content>
+		</item>
+		
+		<item>
+			<title></title>
+			<link>http://localhost:1313/posts/optimizing_a_python_function/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+			
+			<guid>http://localhost:1313/posts/optimizing_a_python_function/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<hr>
+<p>title: &ldquo;Optimizing_a_Python_function&rdquo;
+date: 2024-04-12T12:33:38-05:00
+draft: true
+toc: false
+images:
+tags:</p>
+<ul>
+<li>untagged</li>
+</ul>
+<hr>
+<p>One of my principal roles working as contributor on the CryptographicEstimators library, is to drop the usage of Sage, a huge library to work with maths, and that provides a lot of highly optimized numeric-theoretic functions (integrating multiple low-level libraries written in C). Our reason to do that is because it will make the library more lightweight and easy to install and understand; therefore we want to drop sage as a dependency in the near future.</p>
+<p>Recently I was tasked to write a pure Python function that replaces the use of <code>sage.arith.misc.is_prime_power</code>, a function that given an integer, tell if it is a power of some prime or not. To my surprise, this was a very interesting task because ended up requiring me to build a benchmarking python module, learn about new data structures and internals in Python, and even make some code profiling to check bottlenecks. Because it was a great experience, I want to share with all of you what the process was, so maybe if you ever need to make something similar, at least have in mind some useful steps to tackle the task!</p>
+<h1 id="understanding-the-task-and-giving-a-first-solution">Understanding the task, and giving a first solution</h1>
+<p>As I say above, I was assigned to write</p>
+<h2 id="writing-steps">Writing steps</h2>
+<ul>
+<li>Understanding the task, how it will be approached, and giving a first solution</li>
+</ul>
+<p>Qué función debo atacar, cómo lo quise hacer, cuál solución propuse, y cuáles fueron comparativamente los resultados de esa primera solución.</p>
+<ul>
+<li></li>
+</ul>
+<p><a href="https://docs.python.org/3/howto/functional.html">https://docs.python.org/3/howto/functional.html</a></p>
 ]]></content>
 		</item>
 		

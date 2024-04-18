@@ -1,0 +1,1 @@
+This repository contains the source code for my website, built using the Hugo static site generator and the "hermit-v2" theme. You can view the live website at [https://dioprz.github.io/blog-dioprz/](%22https://dioprz.github.io/blog-dioprz/%22).
