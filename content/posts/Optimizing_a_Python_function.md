@@ -1,15 +1,12 @@
-______________________________________________________________________
-
+___
 title: "Optimizing_a_Python_function"
 date: 2024-04-12T12:33:38-05:00
 draft: true
 toc: false
 images:
 tags:
-
-- untagged
-
-______________________________________________________________________
+  - untagged
+___
 
 One of my principal roles working as contributor on the CryptographicEstimators library, is to drop the usage of Sage, a huge library to work with maths, and that provides a lot of highly optimized numeric-theoretic functions (integrating multiple low-level libraries written in C). Our reason to do that is because it will make the library more lightweight and easy to install and understand; therefore we want to drop sage as a dependency in the near future.
 
