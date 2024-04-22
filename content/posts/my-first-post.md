@@ -1,14 +1,12 @@
 ---
 title: "My First Post"
 date: 2023-07-11T03:22:28-05:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
   - untagged
 ---
-# Prueba de título
 
-Proof of posting
+TODO
 
-## Prueba de segundo título
