@@ -8,8 +8,6 @@ tags:
   - untagged
 ---
 
-# You DON'T need ANOTHER course
-
 Some months ago I was required to learn Docker in depth. As a first and almost
 automatic action, I remember opening Google and searching "Best Docker courses".
 It was fun because just a couple of seconds later, I remember thinking "Why am I
